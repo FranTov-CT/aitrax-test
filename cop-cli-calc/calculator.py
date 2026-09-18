@@ -1,4 +1,4 @@
-"""Simple calculator supporting addition and subtraction."""
+"""Simple calculator supporting addition, subtraction, multiplication and division."""
 
 
 def add(a, b):
@@ -11,9 +11,29 @@ def subtract(a, b):
     return a - b
 
 
+def multiply(a, b):
+    """Return the product of a and b."""
+    return a * b
+
+
+def divide(a, b):
+    """Return the quotient of a and b. Raises ZeroDivisionError if b is 0."""
+    if b == 0:
+        raise ZeroDivisionError("No se puede dividir entre cero.")
+    return a / b
+
+
+OPERATIONS = {
+    "+": add,
+    "-": subtract,
+    "*": multiply,
+    "/": divide,
+}
+
+
 def main():
-    print("Calculadora simple (suma y resta)")
-    print("Operaciones disponibles: + , -")
+    print("Calculadora simple (suma, resta, multiplicacion y division)")
+    print("Operaciones disponibles: + , - , * , /")
     print("Escribe 'salir' para terminar.\n")
 
     while True:
@@ -23,8 +43,8 @@ def main():
             break
 
         parts = expr.split()
-        if len(parts) != 3 or parts[1] not in ("+", "-"):
-            print("Formato invalido. Usa: numero operador numero (ej: 5 - 2)\n")
+        if len(parts) != 3 or parts[1] not in OPERATIONS:
+            print("Formato invalido. Usa: numero operador numero (ej: 5 * 2)\n")
             continue
 
         try:
@@ -35,10 +55,11 @@ def main():
             continue
 
         operator = parts[1]
-        if operator == "+":
-            result = add(a, b)
-        else:
-            result = subtract(a, b)
+        try:
+            result = OPERATIONS[operator](a, b)
+        except ZeroDivisionError as e:
+            print(f"Error: {e}\n")
+            continue
 
         print(f"Resultado: {result}\n")
 
