@@ -25,4 +25,9 @@ function power(a, b) {
     return Math.pow(a, b);
 }
 
-module.exports = { add, subtract, multiply, divide, modulo, power };
+function sqrt(a) {
+    if (a < 0) throw new Error('Cannot take square root of a negative number');
+    return Math.sqrt(a);
+}
+
+module.exports = { add, subtract, multiply, divide, modulo, power, sqrt };
