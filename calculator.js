@@ -1,6 +1,10 @@
 const operations = require('./operations');
 
 function calculate(a, operator, b) {
+    if (typeof operator !== 'string') {
+        throw new TypeError('Operator must be a string');
+    }
+
     const requiresSingleOperand = operator === 'sqrt';
     if (!Number.isFinite(a) || (!requiresSingleOperand && !Number.isFinite(b))) {
         throw new TypeError('Operands must be finite numbers');

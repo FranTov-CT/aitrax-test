@@ -30,6 +30,10 @@ test('rejects unknown operators', () => {
     assert.throws(() => calculate(1, '#', 2), /Unknown operator: #/);
 });
 
+test('rejects a non-string operator', () => {
+    assert.throws(() => calculate(1, null, 2), /Operator must be a string/);
+});
+
 test('rejects non-numeric operands', () => {
     assert.throws(() => calculate('5', '+', 3), /Operands must be finite numbers/);
     assert.throws(() => calculate(1, '+', undefined), /Operands must be finite numbers/);
