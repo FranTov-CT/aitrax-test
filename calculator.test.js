@@ -18,3 +18,9 @@ test('rejects division and modulo by zero', () => {
 test('rejects unknown operators', () => {
     assert.throws(() => calculate(1, '^', 2), /Unknown operator: \^/);
 });
+
+test('rejects non-numeric operands', () => {
+    assert.throws(() => calculate('5', '+', 3), /Operands must be finite numbers/);
+    assert.throws(() => calculate(1, '+', undefined), /Operands must be finite numbers/);
+    assert.throws(() => calculate(NaN, '*', 2), /Operands must be finite numbers/);
+});
