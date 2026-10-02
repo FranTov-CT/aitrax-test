@@ -1,7 +1,8 @@
 const operations = require('./operations');
 
 function calculate(a, operator, b) {
-    if (!Number.isFinite(a) || !Number.isFinite(b)) {
+    const requiresSingleOperand = operator === 'sqrt';
+    if (!Number.isFinite(a) || (!requiresSingleOperand && !Number.isFinite(b))) {
         throw new TypeError('Operands must be finite numbers');
     }
     let result;
@@ -12,6 +13,7 @@ function calculate(a, operator, b) {
         case '/': result = operations.divide(a, b); break;
         case '%': result = operations.modulo(a, b); break;
         case '^': result = operations.power(a, b); break;
+        case 'sqrt': result = operations.sqrt(a); break;
         default: throw new Error(`Unknown operator: ${operator}`);
     }
     if (!Number.isFinite(result)) {
@@ -28,6 +30,7 @@ if (require.main === module) {
     console.log('15 / 3 =', calculate(15, '/', 3));
     console.log('15 % 4 =', calculate(15, '%', 4));
     console.log('2 ^ 3 =', calculate(2, '^', 3));
+    console.log('sqrt(16) =', calculate(16, 'sqrt'));
 }
 
 module.exports = { calculate };

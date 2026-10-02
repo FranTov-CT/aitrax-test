@@ -10,6 +10,11 @@ test('calculates each supported operator', () => {
     assert.equal(calculate(15, '%', 4), 3);
     assert.equal(calculate(2, '^', 3), 8);
     assert.equal(calculate(5, '^', 2), 25);
+    assert.equal(calculate(16, 'sqrt'), 4);
+});
+
+test('rejects square root of a negative number', () => {
+    assert.throws(() => calculate(-4, 'sqrt'), /Cannot take square root of a negative number/);
 });
 
 test('rejects division and modulo by zero', () => {
