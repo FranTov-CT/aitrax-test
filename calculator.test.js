@@ -11,6 +11,9 @@ test('calculates each supported operator', () => {
     assert.equal(calculate(2, '^', 3), 8);
     assert.equal(calculate(5, '^', 2), 25);
     assert.equal(calculate(16, 'sqrt'), 4);
+    assert.equal(calculate(-7, 'abs'), 7);
+    assert.equal(calculate(7, 'abs'), 7);
+    assert.equal(calculate(0, 'abs'), 0);
 });
 
 test('rejects square root of a negative number', () => {
