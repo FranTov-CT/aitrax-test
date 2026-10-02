@@ -6,6 +6,7 @@ function calculate(a, operator, b) {
         case '-': return operations.subtract(a, b);
         case '*': return operations.multiply(a, b);
         case '/': return operations.divide(a, b);
+        case '%': return operations.modulo(a, b);
         default: throw new Error(`Unknown operator: ${operator}`);
     }
 }
@@ -16,6 +17,7 @@ if (require.main === module) {
     console.log('10 - 4 =', calculate(10, '-', 4));
     console.log('6 * 7 =', calculate(6, '*', 7));
     console.log('15 / 3 =', calculate(15, '/', 3));
+    console.log('15 % 4 =', calculate(15, '%', 4));
 }
 
 module.exports = { calculate };
