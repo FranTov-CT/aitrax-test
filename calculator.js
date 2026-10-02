@@ -5,7 +5,7 @@ function calculate(a, operator, b) {
         throw new TypeError('Operator must be a string');
     }
 
-    const requiresSingleOperand = operator === 'sqrt';
+    const requiresSingleOperand = operator === 'sqrt' || operator === 'abs';
     if (!Number.isFinite(a) || (!requiresSingleOperand && !Number.isFinite(b))) {
         throw new TypeError('Operands must be finite numbers');
     }
@@ -18,6 +18,7 @@ function calculate(a, operator, b) {
         case '%': result = operations.modulo(a, b); break;
         case '^': result = operations.power(a, b); break;
         case 'sqrt': result = operations.sqrt(a); break;
+        case 'abs': result = operations.abs(a); break;
         default: throw new Error(`Unknown operator: ${operator}`);
     }
     if (!Number.isFinite(result)) {
@@ -35,6 +36,7 @@ if (require.main === module) {
     console.log('15 % 4 =', calculate(15, '%', 4));
     console.log('2 ^ 3 =', calculate(2, '^', 3));
     console.log('sqrt(16) =', calculate(16, 'sqrt'));
+    console.log('abs(-7) =', calculate(-7, 'abs'));
 }
 
 module.exports = { calculate };
