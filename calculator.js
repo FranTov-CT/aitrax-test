@@ -4,15 +4,20 @@ function calculate(a, operator, b) {
     if (!Number.isFinite(a) || !Number.isFinite(b)) {
         throw new TypeError('Operands must be finite numbers');
     }
+    let result;
     switch (operator) {
-        case '+': return operations.add(a, b);
-        case '-': return operations.subtract(a, b);
-        case '*': return operations.multiply(a, b);
-        case '/': return operations.divide(a, b);
-        case '%': return operations.modulo(a, b);
-        case '^': return operations.power(a, b);
+        case '+': result = operations.add(a, b); break;
+        case '-': result = operations.subtract(a, b); break;
+        case '*': result = operations.multiply(a, b); break;
+        case '/': result = operations.divide(a, b); break;
+        case '%': result = operations.modulo(a, b); break;
+        case '^': result = operations.power(a, b); break;
         default: throw new Error(`Unknown operator: ${operator}`);
     }
+    if (!Number.isFinite(result)) {
+        throw new RangeError('Result is out of range');
+    }
+    return result;
 }
 
 if (require.main === module) {

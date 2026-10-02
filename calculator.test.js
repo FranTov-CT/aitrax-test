@@ -30,3 +30,8 @@ test('rejects non-numeric operands', () => {
     assert.throws(() => calculate(1, '+', undefined), /Operands must be finite numbers/);
     assert.throws(() => calculate(NaN, '*', 2), /Operands must be finite numbers/);
 });
+
+test('rejects results that overflow to Infinity', () => {
+    assert.throws(() => calculate(10, '^', 400), /Result is out of range/);
+    assert.throws(() => calculate(Number.MAX_VALUE, '*', 2), /Result is out of range/);
+});
