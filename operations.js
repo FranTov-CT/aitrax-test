@@ -20,4 +20,9 @@ function modulo(a, b) {
     return a % b;
 }
 
-module.exports = { add, subtract, multiply, divide, modulo };
+function power(a, b) {
+    if (b < 0) throw new Error('Exponent cannot be negative');
+    return Math.pow(a, b);
+}
+
+module.exports = { add, subtract, multiply, divide, modulo, power };
