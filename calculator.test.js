@@ -12,7 +12,7 @@ test('calculates each supported operator', () => {
 
 test('rejects division and modulo by zero', () => {
     assert.throws(() => calculate(1, '/', 0), /Division by zero/);
-    assert.throws(() => calculate(1, '%', 0), /Division by zero/);
+    assert.throws(() => calculate(1, '%', 0), /Modulo by zero/);
 });
 
 test('rejects unknown operators', () => {

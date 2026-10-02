@@ -16,7 +16,7 @@ function divide(a, b) {
 }
 
 function modulo(a, b) {
-    if (b === 0) throw new Error('Division by zero');
+    if (b === 0) throw new Error('Modulo by zero');
     return a % b;
 }
 
