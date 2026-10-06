@@ -1,0 +1,10 @@
+nube horizonte luna horizonte viento piedra bosque sol luna
+luna viento rio sol nube bosque piedra lluvia mar
+mar lluvia lluvia bosque camino estrella sol luna sol
+arena camino rio mar viento mar lluvia lluvia arena
+camino nube sol azul horizonte azul mar verde arena
+nube verde horizonte azul viento piedra estrella sol azul
+azul verde azul azul arena mar lluvia estrella sol
+horizonte rio horizonte mar azul luna mar camino sol
+lluvia rio lluvia nube camino arena mar verde camino
+bosque estrella luna estrella viento arena piedra viento nube
