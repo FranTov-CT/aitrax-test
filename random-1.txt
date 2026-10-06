@@ -1,0 +1,10 @@
+bosque rio papel montaña camino piedra papel piedra
+faro montaña viento naranja azul naranja camino jardin
+rio faro rio faro piedra jardin nube camino
+nube bosque ventana azul viento faro rio faro
+jardin isla nube camino estrella faro ventana estrella
+bosque nube camino bosque papel luna papel piedra
+azul rio ventana papel ventana montaña jardin isla
+camino estrella estrella estrella ventana faro naranja rio
+ventana viento papel bosque viento naranja ventana papel
+azul bosque viento faro montaña naranja ventana nube
