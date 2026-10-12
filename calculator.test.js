@@ -29,6 +29,11 @@ test('rejects negative exponent in power operation', () => {
     assert.throws(() => calculate(2, '^', -1), /Exponent cannot be negative/);
 });
 
+test('single-operand operators still require a finite first operand', () => {
+    assert.throws(() => calculate(NaN, 'sqrt'), /Operands must be finite numbers/);
+    assert.throws(() => calculate(Infinity, 'abs'), /Operands must be finite numbers/);
+});
+
 test('rejects unknown operators', () => {
     assert.throws(() => calculate(1, '#', 2), /Unknown operator: #/);
 });
