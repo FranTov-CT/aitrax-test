@@ -1,0 +1,5 @@
+English: Hello, World!
+Español: ¡Hola, Mundo!
+Français: Bonjour, le Monde !
+Deutsch: Hallo, Welt!
+Italiano: Ciao, Mondo!
