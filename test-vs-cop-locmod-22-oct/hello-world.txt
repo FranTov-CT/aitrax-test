@@ -1,0 +1,10 @@
+English: Hello, world!
+Spanish: ¡Hola, mundo!
+French: Bonjour, le monde !
+German: Hallo, Welt!
+Italian: Ciao, mondo!
+Portuguese: Olá, mundo!
+Japanese: こんにちは、世界！
+Chinese: 你好，世界！
+Russian: Привет, мир!
+Arabic: مرحبًا يا عالم!
