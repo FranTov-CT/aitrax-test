@@ -1,18 +1,16 @@
-const operations = require('./operations');
-
 function calculate(a, operator, b) {
     switch (operator) {
-        case '+': return operations.sum(a, b);
-        case '-': return operations.subtract(a, b);
-        case '*': return operations.multiply(a, b);
-        case '/': return operations.divide(a, b);
-        case '%': return operations.modulo(a, b);
+        case '+': return a + b;
+        case '-': return a - b;
+        case '*': return a * b;
+        case '/': return a / b;
+        case '%': return a % b;
         case '^':
-        case '**': return operations.power(a, b);
+        case '**': return Math.pow(a, b);
         case 'sqrt':
-        case '√': return operations.squareRoot(a);
-        case 'root': return operations.root(a, b);
-        case 'abs': return operations.absolute(a);
+        case '√': return Math.sqrt(a);
+        case 'root': return Math.pow(a, 1 / b);
+        case 'abs': return Math.abs(a);
         default: throw new Error(`Unknown operator: ${operator}`);
     }
 }
