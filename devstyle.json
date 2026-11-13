@@ -1,0 +1,75 @@
+{
+  "updates": {
+    "repository-url": "http://webdev.cloud.genuitec.com/devstyle/updatesite/",
+    "release-version": "2026.1.0.202611091335",
+    "check-interval": 300000,
+    "notify-updated": 300000,
+    "eclipse-version": "[4.5.0,5.0.0)",
+    "release-notes": {
+      "id": "ci20261105",
+      "delivery-log-url": "https://www.genuitec.com/products/devstyle/deliverylog/",
+      "release-label": "CI 2026.1.0 (dev)",
+      "updates": [
+        {
+          "heading": "Fixes for the Latest Eclipse Versions",
+          "message": "Fixes various compatibility issues in Eclipse 2026-06 and 2026-09 including critical breaks which could crash Eclipse during startup. If you observe anything else, please reach out!",
+          "bullet": {
+            "padding": "tiny",
+            "overlayicon": "ionicons:ios-moon",
+            "color": "blue",
+            "overlayscale": "xlarge",
+            "icon": "fontawesome:square",
+            "scale": "full",
+            "type": "overlayed",
+            "overlaycolor": "black",
+            "size": "32x32",
+            "position": "center"
+          },
+          "show-if": {
+            "bundles": [
+              "com.genuitec.eclipse.theming.ui"
+            ]
+          }
+        },
+        {
+          "heading": "CodeTogether Live No Longer Bundled",
+          "message": "CodeTogether Live is no longer installed together with DevStyle. If you already have it, it stays until you remove it from Help > About > Installation Details.",
+          "bullet": {
+            "padding": "tiny",
+            "overlayicon": "fontawesome:chain-broken",
+            "color": "blue",
+            "overlayscale": "xlarge",
+            "icon": "fontawesome:square",
+            "scale": "full",
+            "type": "overlayed",
+            "overlaycolor": "black",
+            "size": "32x32",
+            "position": "center"
+          },
+          "show-if": {
+            "bundles": [
+              "com.genuitec.eclipse.theming.ui"
+            ]
+          }
+        }
+      ]
+    },
+    "eclipse-roots": [
+      {
+        "id": "com.genuitec.eclipse.theming.core.feature.feature.group",
+        "version": "2026.1.0.202611091335"
+      },
+      {
+        "id": "com.genuitec.eclipse.theming.feature.feature.group",
+        "version": "2026.1.0.202611091335"
+      },
+      {
+        "id": "com.genuitec.eclipse.theming.designer.feature.feature.group",
+        "version": "2026.1.0.202611091335"
+      }
+    ],
+    "binary-roots": []
+  },
+  "notifications": [],
+  "notifications2": []
+}

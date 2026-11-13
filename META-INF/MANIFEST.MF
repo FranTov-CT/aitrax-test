@@ -1,0 +1,145 @@
+Manifest-Version: 1.0
+Created-By: 11.0.33 (Azul Systems, Inc.)
+
+Name: plugins/org.eclipse.nebula.widgets.gallery_1.0.0.201706221838.jar
+SHA-256-Digest: i2HME51lWasEspOEFSg0Ub+IpMXBRyWZHNywCxa2VTQ=
+
+Name: content.xml.xz
+SHA-256-Digest: UfRBkjv6M53Kbq0nyDAlXwk+vinnMLSoohxl+DKgqSs=
+
+Name: plugins/com.google.guava_18.0.0.v20161115-1643.jar
+SHA-256-Digest: DDbXYsPg4WwZyfjPCVPguv72FTNfg+zSP80vtoi/K9w=
+
+Name: features/com.genuitec.eclipse.theming.core.feature_2026.1.0.202611
+ 091335.jar
+SHA-256-Digest: NSq9YVu6SchOaB+Zd2auu9Xx3eoxcd581UVaJq7T1d4=
+
+Name: plugins/com.genuitec.eclipse.theming.css_2026.1.0.202611091335.jar
+SHA-256-Digest: cWUL7DiscTPmX/TGW2crUTRqgBPuM9vS58Sv158QBrc=
+
+Name: devstyle.json
+SHA-256-Digest: ZjOR0quvYt3ksDZ+u2/eofJNis0FHIF7TlZBG/0iaA8=
+
+Name: plugins/com.genuitec.eclipse.startup.workspace_2026.1.0.2026110913
+ 35.jar
+SHA-256-Digest: i6KW5B0wp8sgNYQPA+CuBpx9v1k6/Vi2LfIUY72iqy0=
+
+Name: release.json
+SHA-256-Digest: PctahL05Y5NNUHEbDcUfd9rJKizV1Q+9zK1gfgr3ccU=
+
+Name: features/com.genuitec.eclipse.theming.oss_2026.1.0.202611091335.ja
+ r
+SHA-256-Digest: g0NkI5iOhG1q/r+BoyvjIRggudomoeXyJ3JsVh21g8g=
+
+Name: plugins/com.genuitec.eclipse.theming.base.win_2026.1.0.20261109133
+ 5.jar
+SHA-256-Digest: uq3Gawp0RCYHIzyi3QVw0pf3B9ZRLCNWUTsbM8UchAM=
+
+Name: plugins/com.genuitec.eclipse.theming.elevation.win32_2026.1.0.2026
+ 11091335.jar
+SHA-256-Digest: UCl4EqucW4KaBubyVCNRljACWIbdx8Sh4s65mhJcWeQ=
+
+Name: p2.index
+SHA-256-Digest: Tdk0IbS0gFdNfU7Oy7qghUIq+AEdJq8w0RBIOURghAI=
+
+Name: plugins/com.genuitec.eclipse.theming.scrollbar_2026.1.0.2026110913
+ 35.jar
+SHA-256-Digest: 1nYtt22obKdK54POlk8uHwA2V9CfWPIirEoM+lhPh58=
+
+Name: content.jar
+SHA-256-Digest: 57kmdXLf0A61GH27qubI0nIQQHzKZiJHFl8x1sqMGf4=
+
+Name: features/com.genuitec.eclipse.theming.designer.feature_2026.1.0.20
+ 2611091335.jar
+SHA-256-Digest: WDnDQTJZZolup/FttiJTZhTpmSV1Ej3IkJvbDHPCRIw=
+
+Name: plugins/com.genuitec.eclipse.startup_2026.1.0.202611091335.jar
+SHA-256-Digest: VPGF4du+mjAqFEwm68q3UKiVGPrJbiHklfSGpAd2HdU=
+
+Name: features/com.genuitec.eclipse.theming.feature_2026.1.0.20261109133
+ 5.jar
+SHA-256-Digest: OZ1ZJREaL8aCNNSsbfPNvhH9lhdfOWRZ2mVK+qrlb1Q=
+
+Name: plugins/com.genuitec.eclipse.theming.ui_2026.1.0.202611091335.jar
+SHA-256-Digest: ZxOT1LG/6j82d3d7Znpxvw2wtqhuZLEOIdI5ByiBBGA=
+
+Name: plugins/com.genuitec.eclipse.theming.base_2026.1.0.202611091335.ja
+ r
+SHA-256-Digest: mzpUVhX2jZQgkEAIn34XnYxepbH28Lmg/zNXnNaMVAQ=
+
+Name: plugins/com.genuitec.eclipse.core.common.platform_2026.1.0.2026110
+ 91335.jar
+SHA-256-Digest: CbfQk1Q30BcEoKBD7VgIr285aEfoEahTuvKUgq3CsSg=
+
+Name: features/com.genuitec.eclipse.theming.dependencies.feature_2026.1.
+ 0.202611091335.jar
+SHA-256-Digest: GV1U03Ywj/+CBiddHL/dXJddkhUOUQRO3dhVNc4UZXI=
+
+Name: plugins/com.genuitec.eclipsecolortheme.api_2026.1.0.202611091335.j
+ ar
+SHA-256-Digest: NlbcoiQ4dh1RMaUByhn2ii6BDuld9ZGfuxyefFQ0cCU=
+
+Name: plugins/com.genuitec.eclipse.patches_2026.1.0.202611091335.jar
+SHA-256-Digest: FqdrZSDgKK+UFaWlE99oo5alWBeQuAFD1Qv2UCBtO5g=
+
+Name: plugins/com.genuitec.eclipse.theming.base.mac_2026.1.0.20261109133
+ 5.jar
+SHA-256-Digest: Cjpf3KWRCDVTlWzOi43lQ8LY9CH5H+HWAdHwkX0FbQE=
+
+Name: plugins/com.genuitec.eclipse.inlinesearch_2026.1.0.202611091335.ja
+ r
+SHA-256-Digest: mNI1E5N4SC7VL7/MjP97xL/rN/GUg0MvuF7UQHm9yaA=
+
+Name: artifacts.xml.xz
+SHA-256-Digest: iJ4kCIoZHxfm7Kwb0MqqVucwaGnumu9svIKzYDVsyDE=
+
+Name: plugins/com.genuitec.eclipse.meexplorer.jdt_2026.1.0.202611091335.
+ jar
+SHA-256-Digest: aoZSmcgp3NstlLOLAmloS+uB1seUdqsmhyV7CfmnqSA=
+
+Name: plugins/com.genuitec.eclipse.core.common.rss_2026.1.0.202611091335
+ .jar
+SHA-256-Digest: HrCiwyecVjuJ/HD+kKotL0ZfaFhkLV8RwqadOgmK4Mw=
+
+Name: plugins/com.genuitec.eclipse.theming.scrollbar.win_2026.1.0.202611
+ 091335.jar
+SHA-256-Digest: ghrlX+QbZMyibNriW1mqGU7n72ufZC9vhhpaNIWo5cM=
+
+Name: plugins/com.genuitec.eclipse.theming.core_2026.1.0.202611091335.ja
+ r
+SHA-256-Digest: zGjHRSMHhqLKoeMkDiaRFFRnXz7eohjaWUcDoeN1URE=
+
+Name: plugins/com.genuitec.eclipse.theming.scrollbar.mac_2026.1.0.202611
+ 091335.jar
+SHA-256-Digest: EO5CtJ4YXAKEOLew3czccoYhwwjasF5ycSy2wqQ9+M0=
+
+Name: plugins/com.genuitec.eclipse.meexplorer_2026.1.0.202611091335.jar
+SHA-256-Digest: Lir1aiK1yVwRuC6KlP2xX2I0Dw08sqludjMb8nWXjHQ=
+
+Name: artifacts.jar
+SHA-256-Digest: +IjZfK2/xpjksKI2s06dqYEAVzgm0PL+Z8MRzeF93Ss=
+
+Name: plugins/com.genuitec.eclipse.json.simple_2026.1.0.202611091335.jar
+SHA-256-Digest: Q7fSVp1kgvytN6Jr0jQHsWTNc/beRP16fPPY7xLGfkM=
+
+Name: plugins/com.genuitec.eclipse.webclipse.evergreen_2026.1.0.20261109
+ 1335.jar
+SHA-256-Digest: usA5On06/5/0qR6bH8MFggG9GrBQjyOA1Rn3/1Q+O38=
+
+Name: plugins/com.genuitec.eclipse.ui.common.platform_2026.1.0.202611091
+ 335.jar
+SHA-256-Digest: viDSHHjJjrELa/+E9uxgdR3WOGL5eZNRABBeSam6yNg=
+
+Name: plugins/com.genuitec.eclipse.webicons_2026.1.0.202611091335.jar
+SHA-256-Digest: LVSwYwO1MkJdxMXGYzErW6VJtxzjy/sptsDw/oPmSsc=
+
+Name: plugins/com.genuitec.eclipse.theming.epl_2026.1.0.202611091335.jar
+SHA-256-Digest: dW2YASO0LkKLzvRoegx3bqk8gTpmrzbHJKevIkOmnVQ=
+
+Name: plugins/com.google.gson_2.2.4.v201311231704.jar
+SHA-256-Digest: EW+PdUH5xAnB1/angGxIXS0hpuw+SIR7Bk5avcldmFQ=
+
+Name: plugins/com.genuitec.eclipse.theming.icon.designer_2026.1.0.202611
+ 091335.jar
+SHA-256-Digest: sJjyb/k1uW+tmdDIEwQqUebLFFFdjiPgoQyChyo24UY=
+
