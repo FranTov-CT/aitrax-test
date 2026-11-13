@@ -1,4 +1,4 @@
-const names = require('./names');
+const names = require('../names');
 const { greet } = require('./greeting');
 
 for (const name of names) {
