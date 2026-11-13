@@ -1,5 +1,11 @@
 const operations = require('./operations');
 
+/**
+ * Advanced Calculator with support for basic and advanced operations
+ * Supported operators:
+ * - Basic: +, -, *, /, % (modulo)
+ * - Advanced: ^ (power), sqrt (square root), abs (absolute value)
+ */
 function calculate(a, operator, b) {
     if (typeof operator !== 'string') {
         throw new TypeError('Operator must be a string');
@@ -9,6 +15,7 @@ function calculate(a, operator, b) {
     if (!Number.isFinite(a) || (!requiresSingleOperand && !Number.isFinite(b))) {
         throw new TypeError('Operands must be finite numbers');
     }
+    
     let result;
     switch (operator) {
         case '+': result = operations.add(a, b); break;
@@ -28,15 +35,22 @@ function calculate(a, operator, b) {
 }
 
 if (require.main === module) {
-    console.log('Calculator ready');
+    console.log('=== Calculator - Basic Operations ===');
     console.log('5 + 3 =', calculate(5, '+', 3));
     console.log('10 - 4 =', calculate(10, '-', 4));
     console.log('6 * 7 =', calculate(6, '*', 7));
     console.log('15 / 3 =', calculate(15, '/', 3));
     console.log('15 % 4 =', calculate(15, '%', 4));
+    
+    console.log('\n=== Advanced Operations - Powers & Roots ===');
     console.log('2 ^ 3 =', calculate(2, '^', 3));
+    console.log('2 ^ 10 =', calculate(2, '^', 10));
+    console.log('5 ^ 2 =', calculate(5, '^', 2));
     console.log('sqrt(16) =', calculate(16, 'sqrt'));
+    console.log('sqrt(25) =', calculate(25, 'sqrt'));
+    console.log('sqrt(2) ≈', calculate(2, 'sqrt'));
     console.log('abs(-7) =', calculate(-7, 'abs'));
+    console.log('abs(-42.5) =', calculate(-42.5, 'abs'));
 }
 
 module.exports = { calculate };
